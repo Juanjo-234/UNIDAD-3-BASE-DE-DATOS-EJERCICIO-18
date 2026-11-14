@@ -34,6 +34,8 @@ A continuación se detalla qué representa cada tabla y cómo se estructuran:
 * **`INSPECCION_CALIDAD`**: Registra los resultados, fechas y horarios de las auditorías técnicas realizadas sobre las unidades fabricadas por parte del personal inspector.
 * *Campos:* `ID_INSPECCION` (Clave Primaria), `FECHA`, `HORA`, `RESULTADO`, `ID_EMPLEADO` e `ID_UNIDAD_PRODUCCION` (Claves Foráneas).
 
+<img width="1407" height="1072" alt="EJERCICIO 18-MR drawio" src="https://github.com/user-attachments/assets/5c38c42a-7cc6-4c31-a82c-cc026fe62ba8" />
+
 
 Este diagrama muestra el **proceso completo de normalización de bases de datos** aplicado a un sistema de gestión para la fabricación, montaje y control de calidad de productos o componentes industriales, transformando una estructura inicial desnormalizada (Forma Normal 0) hasta llegar al diseño relacional optimizado en Tercera Forma Normal (3FN).
 
@@ -75,8 +77,4 @@ A continuación se detalla cada una de las fases representadas:
 * **`TABLA UNIDAD_PRODUCCION`**: Registra la trazabilidad de los artículos fabricados.
 * **`TABLA EMPLEADO`**: Incorporada para centralizar los datos del personal (legajo, cargo, nombre, correo, teléfono), evitando redundancias en las líneas y controles.
 * **`TABLA INSPECCION_CALIDAD`**: Registra de forma independiente los resultados, fechas y estados de las auditorías de calidad asociadas a los empleados inspectores y unidades de producción correspondientes.
-<img width="1407" height="1072" alt="EJERCICIO 18-MR drawio" src="https://github.com/user-attachments/assets/5c38c42a-7cc6-4c31-a82c-cc026fe62ba8" />
-
-
-
 <img width="6312" height="2722" alt="EJERCICIO 18-FASES DE NORMALIZACION drawio" src="https://github.com/user-attachments/assets/601a5914-9f13-424c-9008-1bb0a8444124" />
