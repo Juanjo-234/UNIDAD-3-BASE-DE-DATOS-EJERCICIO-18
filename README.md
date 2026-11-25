@@ -77,4 +77,5 @@ A continuación se detalla cada una de las fases representadas:
 * **`TABLA UNIDAD_PRODUCCION`**: Registra la trazabilidad de los artículos fabricados.
 * **`TABLA EMPLEADO`**: Incorporada para centralizar los datos del personal (legajo, cargo, nombre, correo, teléfono), evitando redundancias en las líneas y controles.
 * **`TABLA INSPECCION_CALIDAD`**: Registra de forma independiente los resultados, fechas y estados de las auditorías de calidad asociadas a los empleados inspectores y unidades de producción correspondientes.
-<img width="6312" height="2722" alt="EJERCICIO 18-FASES DE NORMALIZACION drawio" src="https://github.com/user-attachments/assets/601a5914-9f13-424c-9008-1bb0a8444124" />
+<img width="6312" height="2722" alt="EJERCICIO 18-FASES DE NORMALIZACION drawio" src="https://github.com/user-attachments/assets/42f097fd-c05a-44bc-9548-a3e3060012fe" />
+
